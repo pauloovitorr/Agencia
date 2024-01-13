@@ -1,0 +1,40 @@
+@media  screen and (max-width: 1005px) {
+    .nav{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .um{
+        flex: 100%;
+        margin: 5%;
+    }
+    .um p {
+        text-align: center;
+    }
+
+    .dois{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .whats{
+        display: none;
+    }
+
+    .card{
+      width: 100%;  
+    }
+   
+}

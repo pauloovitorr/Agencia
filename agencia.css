@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family= Mea+Culpa & display = swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    height: 60px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.logo{
+    
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+.logo h1{
+    font-family: 'Mea Culpa', cursive;
+    color: #180f4a;
+    font-size: 34px;
+
+}
+
+.menu{
+    flex: 60%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 16px 20px ;
+    color: #180f4a;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.menu a:hover{
+    color: #ff2978;
+}
+
+#fale{
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+#fale:hover{
+    border: none;
+    background-color: #ff2978;
+}
+
+.header{
+    margin-top: 25px;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+
+    
+}
+
+.um{
+    flex:40%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.um p {
+    
+    width: 90%;
+}
+
+.dois{
+    flex: 40%;
+    text-align: center;
+    margin-right: 10%;
+
+}
+#digital{
+    color: #180f4a;
+    font-size: 70px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+#melhor{
+    color: #180f4a;
+    letter-spacing: 10px;
+    
+}
+
+#imagem{
+    max-width: 90%;
+    height: 500px;
+}
+.butao{
+    text-decoration: none;
+    background-color: #ff2978;
+    color: #180f4a;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+    margin-left: 30%;
+    transition: .5s;
+}
+.butao:hover{
+    background-color: #180f4a;
+    color: #ff2978;
+}
+
+section{
+    
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Mea Culpa', cursive;
+    color: #180f4a;
+    font-weight: bold;
+
+}
+
+.servicos{
+    
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #ff2978 ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card h3 {
+    margin-bottom: 20px;
+    color: #180f4a;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.texto-oculto {
+    display: none;
+    color: white;
+    
+}
+.texto-oculto h3{
+    color: white;
+    
+}
+.card:hover .texto-oculto {
+display: block;
+font-size: 18px;
+color: white;
+}
+
+.card:hover .texto {
+    display: none;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover{
+    background-color: #ff2978;
+    padding-top: 10px 
+}
+
+footer{
+
+    margin-top: 30px;
+    background-image: linear-gradient(180deg, #345a8b,black);
+    text-align: center;
+    color: white;
+    padding: 100px;
+    
+}
+
+footer h1 {
+    font-family: 'Mea Culpa', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+footer h4 {
+   
+    color: white;
+    margin-top: 100px;
+    
+}
+
+.whats{
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+}
+
+.whats img{
+
+    width: 120px;  
+}
