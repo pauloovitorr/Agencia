@@ -29,7 +29,7 @@ Você pode acessar a página online através do GitHub Pages:
 
 Se quiser rodar localmente:
 
-1. Faça o download ou clone o repositório do projeto. [web:22]  
-2. Abra o arquivo `index.html` diretamente no navegador (clique duas vezes ou use “Open with Live Server”, se estiver usando VS Code). [web:24]  
+1. Faça o download ou clone o repositório do projeto.
+2. Abra o arquivo `index.html` diretamente no navegador (clique duas vezes ou use “Open with Live Server”, se estiver usando VS Code).
 
 A página será carregada e você poderá visualizar o layout completo da agência digital.
